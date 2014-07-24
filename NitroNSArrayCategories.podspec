@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "NitroNSArrayCategories"
   s.version      = "1.0.0"
-  s.summary      = "NSArray missing features"
+  s.summary      = "NSArray missing features and utilities"
   s.homepage     = "http://github.com/danielalves/NitroNSArrayCategories"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = "Daniel L. Alves"
