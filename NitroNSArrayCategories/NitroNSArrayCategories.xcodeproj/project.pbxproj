@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		127AE734197807C2001EB900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127AE733197807C2001EB900 /* Foundation.framework */; };
+		127AE739197807C2001EB900 /* NitroNSArrayCategories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 127AE738197807C2001EB900 /* NitroNSArrayCategories.h */; };
+		127AE73B197807C2001EB900 /* NitroNSArrayCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 127AE73A197807C2001EB900 /* NitroNSArrayCategories.m */; };
+		127AE742197807C2001EB900 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127AE741197807C2001EB900 /* XCTest.framework */; };
+		127AE743197807C2001EB900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127AE733197807C2001EB900 /* Foundation.framework */; };
+		127AE745197807C2001EB900 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127AE744197807C2001EB900 /* UIKit.framework */; };
+		127AE748197807C2001EB900 /* libNitroNSArrayCategories.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 127AE730197807C2001EB900 /* libNitroNSArrayCategories.a */; };
+		127AE74E197807C2001EB900 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 127AE74C197807C2001EB900 /* InfoPlist.strings */; };
+		127AE750197807C2001EB900 /* NitroNSArrayCategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 127AE74F197807C2001EB900 /* NitroNSArrayCategoriesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		127AE746197807C2001EB900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 127AE728197807C2001EB900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 127AE72F197807C2001EB900;
+			remoteInfo = NitroNSArrayCategories;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		127AE72E197807C2001EB900 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				127AE739197807C2001EB900 /* NitroNSArrayCategories.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		127AE730197807C2001EB900 /* libNitroNSArrayCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNitroNSArrayCategories.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		127AE733197807C2001EB900 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		127AE737197807C2001EB900 /* NitroNSArrayCategories-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NitroNSArrayCategories-Prefix.pch"; sourceTree = "<group>"; };
+		127AE738197807C2001EB900 /* NitroNSArrayCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NitroNSArrayCategories.h; sourceTree = "<group>"; };
+		127AE73A197807C2001EB900 /* NitroNSArrayCategories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NitroNSArrayCategories.m; sourceTree = "<group>"; };
+		127AE740197807C2001EB900 /* NitroNSArrayCategoriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NitroNSArrayCategoriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		127AE741197807C2001EB900 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		127AE744197807C2001EB900 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		127AE74B197807C2001EB900 /* NitroNSArrayCategoriesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NitroNSArrayCategoriesTests-Info.plist"; sourceTree = "<group>"; };
+		127AE74D197807C2001EB900 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		127AE74F197807C2001EB900 /* NitroNSArrayCategoriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NitroNSArrayCategoriesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		127AE72D197807C2001EB900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127AE734197807C2001EB900 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		127AE73D197807C2001EB900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127AE742197807C2001EB900 /* XCTest.framework in Frameworks */,
+				127AE745197807C2001EB900 /* UIKit.framework in Frameworks */,
+				127AE743197807C2001EB900 /* Foundation.framework in Frameworks */,
+				127AE748197807C2001EB900 /* libNitroNSArrayCategories.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		127AE727197807C2001EB900 = {
+			isa = PBXGroup;
+			children = (
+				127AE735197807C2001EB900 /* NitroNSArrayCategories */,
+				127AE749197807C2001EB900 /* NitroNSArrayCategoriesTests */,
+				127AE732197807C2001EB900 /* Frameworks */,
+				127AE731197807C2001EB900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		127AE731197807C2001EB900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				127AE730197807C2001EB900 /* libNitroNSArrayCategories.a */,
+				127AE740197807C2001EB900 /* NitroNSArrayCategoriesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		127AE732197807C2001EB900 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				127AE733197807C2001EB900 /* Foundation.framework */,
+				127AE741197807C2001EB900 /* XCTest.framework */,
+				127AE744197807C2001EB900 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		127AE735197807C2001EB900 /* NitroNSArrayCategories */ = {
+			isa = PBXGroup;
+			children = (
+				127AE738197807C2001EB900 /* NitroNSArrayCategories.h */,
+				127AE73A197807C2001EB900 /* NitroNSArrayCategories.m */,
+				127AE736197807C2001EB900 /* Supporting Files */,
+			);
+			path = NitroNSArrayCategories;
+			sourceTree = "<group>";
+		};
+		127AE736197807C2001EB900 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				127AE737197807C2001EB900 /* NitroNSArrayCategories-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		127AE749197807C2001EB900 /* NitroNSArrayCategoriesTests */ = {
+			isa = PBXGroup;
+			children = (
+				127AE74F197807C2001EB900 /* NitroNSArrayCategoriesTests.m */,
+				127AE74A197807C2001EB900 /* Supporting Files */,
+			);
+			path = NitroNSArrayCategoriesTests;
+			sourceTree = "<group>";
+		};
+		127AE74A197807C2001EB900 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				127AE74B197807C2001EB900 /* NitroNSArrayCategoriesTests-Info.plist */,
+				127AE74C197807C2001EB900 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		127AE72F197807C2001EB900 /* NitroNSArrayCategories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 127AE753197807C2001EB900 /* Build configuration list for PBXNativeTarget "NitroNSArrayCategories" */;
+			buildPhases = (
+				127AE72C197807C2001EB900 /* Sources */,
+				127AE72D197807C2001EB900 /* Frameworks */,
+				127AE72E197807C2001EB900 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NitroNSArrayCategories;
+			productName = NitroNSArrayCategories;
+			productReference = 127AE730197807C2001EB900 /* libNitroNSArrayCategories.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		127AE73F197807C2001EB900 /* NitroNSArrayCategoriesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 127AE756197807C2001EB900 /* Build configuration list for PBXNativeTarget "NitroNSArrayCategoriesTests" */;
+			buildPhases = (
+				127AE73C197807C2001EB900 /* Sources */,
+				127AE73D197807C2001EB900 /* Frameworks */,
+				127AE73E197807C2001EB900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				127AE747197807C2001EB900 /* PBXTargetDependency */,
+			);
+			name = NitroNSArrayCategoriesTests;
+			productName = NitroNSArrayCategoriesTests;
+			productReference = 127AE740197807C2001EB900 /* NitroNSArrayCategoriesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		127AE728197807C2001EB900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Daniel L. Alves";
+			};
+			buildConfigurationList = 127AE72B197807C2001EB900 /* Build configuration list for PBXProject "NitroNSArrayCategories" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 127AE727197807C2001EB900;
+			productRefGroup = 127AE731197807C2001EB900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				127AE72F197807C2001EB900 /* NitroNSArrayCategories */,
+				127AE73F197807C2001EB900 /* NitroNSArrayCategoriesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		127AE73E197807C2001EB900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127AE74E197807C2001EB900 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		127AE72C197807C2001EB900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127AE73B197807C2001EB900 /* NitroNSArrayCategories.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		127AE73C197807C2001EB900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127AE750197807C2001EB900 /* NitroNSArrayCategoriesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		127AE747197807C2001EB900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 127AE72F197807C2001EB900 /* NitroNSArrayCategories */;
+			targetProxy = 127AE746197807C2001EB900 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		127AE74C197807C2001EB900 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				127AE74D197807C2001EB900 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		127AE751197807C2001EB900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		127AE752197807C2001EB900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		127AE754197807C2001EB900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NitroNSArrayCategories.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NitroNSArrayCategories/NitroNSArrayCategories-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		127AE755197807C2001EB900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NitroNSArrayCategories.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NitroNSArrayCategories/NitroNSArrayCategories-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		127AE757197807C2001EB900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NitroNSArrayCategories/NitroNSArrayCategories-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NitroNSArrayCategoriesTests/NitroNSArrayCategoriesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		127AE758197807C2001EB900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NitroNSArrayCategories/NitroNSArrayCategories-Prefix.pch";
+				INFOPLIST_FILE = "NitroNSArrayCategoriesTests/NitroNSArrayCategoriesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		127AE72B197807C2001EB900 /* Build configuration list for PBXProject "NitroNSArrayCategories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127AE751197807C2001EB900 /* Debug */,
+				127AE752197807C2001EB900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		127AE753197807C2001EB900 /* Build configuration list for PBXNativeTarget "NitroNSArrayCategories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127AE754197807C2001EB900 /* Debug */,
+				127AE755197807C2001EB900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		127AE756197807C2001EB900 /* Build configuration list for PBXNativeTarget "NitroNSArrayCategoriesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127AE757197807C2001EB900 /* Debug */,
+				127AE758197807C2001EB900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 127AE728197807C2001EB900 /* Project object */;
+}
