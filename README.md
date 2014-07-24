@@ -32,7 +32,8 @@ NSArray *animals = @[ @{ @"kind" : @"cat", @"id": @( 1 ) },
 
 // With selectors that receive one argument:
 // animalKinds will be @[ @"cat", @"dog", @"pig" ]
-NSArray *animalKinds = [animals transformWithSelector: @selector(objectForKeyedSubscript:) andObject: @"kind"];
+NSArray *animalKinds = [animals transformWithSelector: @selector(objectForKeyedSubscript:) 
+                                            andObject: @"kind"];
 
 // With blocks:
 // animalsIds will be @[ @1, @2, @3 ]
