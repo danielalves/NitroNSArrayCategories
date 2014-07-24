@@ -1,0 +1,9 @@
+language: objective-c
+before_script:
+    - brew update
+    - brew install xctool && brew cleanup xctool
+    - gem install cocoapods
+script:
+    - cd NitroNSArrayCategories
+    - pod install
+    - xctool -workspace NitroNSArrayCategories.xcworkspace -sdk iphonesimulator -scheme NitroNSArrayCategories test
