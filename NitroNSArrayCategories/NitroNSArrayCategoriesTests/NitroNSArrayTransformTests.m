@@ -1,5 +1,5 @@
 //
-//  NitroNSArrayCategoriesTests.m
+//  NitroNSArrayTransformTests.m
 //  NitroNSArrayCategoriesTests
 //
 //  Created by Daniel L. Alves on 17/7/14.
@@ -13,12 +13,12 @@
 
 #pragma mark - Interface
 
-@interface NitroNSArrayCategoriesTests : XCTestCase
+@interface NitroNSArrayTransformTests : XCTestCase
 @end
 
 #pragma mark - Implementation
 
-@implementation NitroNSArrayCategoriesTests
+@implementation NitroNSArrayTransformTests
 
 #pragma mark - transformWithSelector:
 

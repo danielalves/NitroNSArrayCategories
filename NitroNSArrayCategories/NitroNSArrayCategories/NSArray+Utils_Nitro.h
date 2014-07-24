@@ -20,7 +20,7 @@
  *  @param index The desired object index
  *
  *  @return The object located at index, or nil if index is out of the
- *  array bounds
+ *          array bounds
  *
  *  @see nsnullOrObjectAtIndex:
  */
@@ -33,7 +33,7 @@
  *  @param index The desired object index
  *
  *  @return The object located at index, or NSNull if index is out of the
- *  array bounds
+ *          array bounds
  *
  *  @see nilOrObjectAtIndex:
  */
@@ -68,7 +68,7 @@
  *  The block returns a Boolean value that indicates whether obj passed the test.
  *
  *  @return The objects in the array that pass the test specified by predicate. If no objects 
- *  in the array pass the test, returns an empty array.
+ *          in the array pass the test, or predicate is nil, returns an empty array.
  */
 -( NSArray * )objectsPassingTest:( BOOL (^)( id obj, NSUInteger idx, BOOL *stop ))predicate;
 

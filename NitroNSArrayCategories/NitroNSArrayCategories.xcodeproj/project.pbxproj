@@ -16,6 +16,7 @@
 		127AE750197807C2001EB900 /* NitroNSArrayTransformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 127AE74F197807C2001EB900 /* NitroNSArrayTransformTests.m */; };
 		127AE75D197807DB001EB900 /* NSArray+Transform_Nitro.m in Sources */ = {isa = PBXBuildFile; fileRef = 127AE75A197807DB001EB900 /* NSArray+Transform_Nitro.m */; };
 		127AE75E197807DB001EB900 /* NSArray+Utils_Nitro.m in Sources */ = {isa = PBXBuildFile; fileRef = 127AE75C197807DB001EB900 /* NSArray+Utils_Nitro.m */; };
+		12BB9291198178A700CA52BA /* NitroNSArrayUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BB9290198178A700CA52BA /* NitroNSArrayUtilsTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		127AE75A197807DB001EB900 /* NSArray+Transform_Nitro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Transform_Nitro.m"; sourceTree = "<group>"; };
 		127AE75B197807DB001EB900 /* NSArray+Utils_Nitro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utils_Nitro.h"; sourceTree = "<group>"; };
 		127AE75C197807DB001EB900 /* NSArray+Utils_Nitro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Utils_Nitro.m"; sourceTree = "<group>"; };
+		12BB9290198178A700CA52BA /* NitroNSArrayUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NitroNSArrayUtilsTests.m; sourceTree = "<group>"; };
 		4E417AEB51F84B8794A37A1A /* libPods-NitroNSArrayCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NitroNSArrayCategories.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B3B08D9191458E9998F238 /* Pods-NitroNSArrayCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroNSArrayCategories.xcconfig"; path = "Pods/Pods-NitroNSArrayCategories.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				127AE74F197807C2001EB900 /* NitroNSArrayTransformTests.m */,
+				12BB9290198178A700CA52BA /* NitroNSArrayUtilsTests.m */,
 			);
 			path = NitroNSArrayCategoriesTests;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				127AE750197807C2001EB900 /* NitroNSArrayTransformTests.m in Sources */,
+				12BB9291198178A700CA52BA /* NitroNSArrayUtilsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
@@ -336,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

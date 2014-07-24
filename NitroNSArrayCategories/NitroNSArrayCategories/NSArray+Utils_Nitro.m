@@ -28,6 +28,9 @@
 
 -( NSArray * )objectsPassingTest:( BOOL (^)( id obj, NSUInteger idx, BOOL *stop ))predicate
 {
+    if( !predicate )
+        return @[];
+    
     NSIndexSet *indexes = [self indexesOfObjectsPassingTest: predicate];
     return [self objectsAtIndexes: indexes];
 }
