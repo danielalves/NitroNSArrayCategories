@@ -6,8 +6,10 @@
 //  Copyright (c) 2014 Daniel L. Alves. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#ifndef NITRO_NSARRAY_CATEGORIES_H
+#define NITRO_NSARRAY_CATEGORIES_H
 
-@interface NitroNSArrayCategories : NSObject
+#import <NitroNSArrayCategories/NSArray+Transform_Nitro.h>
+#import <NitroNSArrayCategories/NSArray+Utils_Nitro.h>
 
-@end
+#endif

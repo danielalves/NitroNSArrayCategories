@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C341D4CD6D944E38484C6E0 /* libPods-NitroNSArrayCategories.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E417AEB51F84B8794A37A1A /* libPods-NitroNSArrayCategories.a */; };
 		127AE734197807C2001EB900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127AE733197807C2001EB900 /* Foundation.framework */; };
 		127AE739197807C2001EB900 /* NitroNSArrayCategories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 127AE738197807C2001EB900 /* NitroNSArrayCategories.h */; };
-		127AE73B197807C2001EB900 /* NitroNSArrayCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 127AE73A197807C2001EB900 /* NitroNSArrayCategories.m */; };
 		127AE742197807C2001EB900 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127AE741197807C2001EB900 /* XCTest.framework */; };
 		127AE743197807C2001EB900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127AE733197807C2001EB900 /* Foundation.framework */; };
-		127AE745197807C2001EB900 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127AE744197807C2001EB900 /* UIKit.framework */; };
 		127AE748197807C2001EB900 /* libNitroNSArrayCategories.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 127AE730197807C2001EB900 /* libNitroNSArrayCategories.a */; };
-		127AE74E197807C2001EB900 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 127AE74C197807C2001EB900 /* InfoPlist.strings */; };
-		127AE750197807C2001EB900 /* NitroNSArrayCategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 127AE74F197807C2001EB900 /* NitroNSArrayCategoriesTests.m */; };
+		127AE750197807C2001EB900 /* NitroNSArrayTransformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 127AE74F197807C2001EB900 /* NitroNSArrayTransformTests.m */; };
+		127AE75D197807DB001EB900 /* NSArray+Transform_Nitro.m in Sources */ = {isa = PBXBuildFile; fileRef = 127AE75A197807DB001EB900 /* NSArray+Transform_Nitro.m */; };
+		127AE75E197807DB001EB900 /* NSArray+Utils_Nitro.m in Sources */ = {isa = PBXBuildFile; fileRef = 127AE75C197807DB001EB900 /* NSArray+Utils_Nitro.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +44,16 @@
 /* Begin PBXFileReference section */
 		127AE730197807C2001EB900 /* libNitroNSArrayCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNitroNSArrayCategories.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		127AE733197807C2001EB900 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		127AE737197807C2001EB900 /* NitroNSArrayCategories-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NitroNSArrayCategories-Prefix.pch"; sourceTree = "<group>"; };
 		127AE738197807C2001EB900 /* NitroNSArrayCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NitroNSArrayCategories.h; sourceTree = "<group>"; };
-		127AE73A197807C2001EB900 /* NitroNSArrayCategories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NitroNSArrayCategories.m; sourceTree = "<group>"; };
 		127AE740197807C2001EB900 /* NitroNSArrayCategoriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NitroNSArrayCategoriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		127AE741197807C2001EB900 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		127AE744197807C2001EB900 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		127AE74B197807C2001EB900 /* NitroNSArrayCategoriesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NitroNSArrayCategoriesTests-Info.plist"; sourceTree = "<group>"; };
-		127AE74D197807C2001EB900 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		127AE74F197807C2001EB900 /* NitroNSArrayCategoriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NitroNSArrayCategoriesTests.m; sourceTree = "<group>"; };
+		127AE74F197807C2001EB900 /* NitroNSArrayTransformTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NitroNSArrayTransformTests.m; sourceTree = "<group>"; };
+		127AE759197807DB001EB900 /* NSArray+Transform_Nitro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Transform_Nitro.h"; sourceTree = "<group>"; };
+		127AE75A197807DB001EB900 /* NSArray+Transform_Nitro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Transform_Nitro.m"; sourceTree = "<group>"; };
+		127AE75B197807DB001EB900 /* NSArray+Utils_Nitro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utils_Nitro.h"; sourceTree = "<group>"; };
+		127AE75C197807DB001EB900 /* NSArray+Utils_Nitro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Utils_Nitro.m"; sourceTree = "<group>"; };
+		4E417AEB51F84B8794A37A1A /* libPods-NitroNSArrayCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NitroNSArrayCategories.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B3B08D9191458E9998F238 /* Pods-NitroNSArrayCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroNSArrayCategories.xcconfig"; path = "Pods/Pods-NitroNSArrayCategories.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				127AE734197807C2001EB900 /* Foundation.framework in Frameworks */,
+				0C341D4CD6D944E38484C6E0 /* libPods-NitroNSArrayCategories.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,10 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127AE742197807C2001EB900 /* XCTest.framework in Frameworks */,
-				127AE745197807C2001EB900 /* UIKit.framework in Frameworks */,
-				127AE743197807C2001EB900 /* Foundation.framework in Frameworks */,
 				127AE748197807C2001EB900 /* libNitroNSArrayCategories.a in Frameworks */,
+				127AE743197807C2001EB900 /* Foundation.framework in Frameworks */,
+				127AE742197807C2001EB900 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +86,7 @@
 				127AE749197807C2001EB900 /* NitroNSArrayCategoriesTests */,
 				127AE732197807C2001EB900 /* Frameworks */,
 				127AE731197807C2001EB900 /* Products */,
+				D1B3B08D9191458E9998F238 /* Pods-NitroNSArrayCategories.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +104,7 @@
 			children = (
 				127AE733197807C2001EB900 /* Foundation.framework */,
 				127AE741197807C2001EB900 /* XCTest.framework */,
-				127AE744197807C2001EB900 /* UIKit.framework */,
+				4E417AEB51F84B8794A37A1A /* libPods-NitroNSArrayCategories.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,36 +113,20 @@
 			isa = PBXGroup;
 			children = (
 				127AE738197807C2001EB900 /* NitroNSArrayCategories.h */,
-				127AE73A197807C2001EB900 /* NitroNSArrayCategories.m */,
-				127AE736197807C2001EB900 /* Supporting Files */,
+				127AE759197807DB001EB900 /* NSArray+Transform_Nitro.h */,
+				127AE75A197807DB001EB900 /* NSArray+Transform_Nitro.m */,
+				127AE75B197807DB001EB900 /* NSArray+Utils_Nitro.h */,
+				127AE75C197807DB001EB900 /* NSArray+Utils_Nitro.m */,
 			);
 			path = NitroNSArrayCategories;
-			sourceTree = "<group>";
-		};
-		127AE736197807C2001EB900 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				127AE737197807C2001EB900 /* NitroNSArrayCategories-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		127AE749197807C2001EB900 /* NitroNSArrayCategoriesTests */ = {
 			isa = PBXGroup;
 			children = (
-				127AE74F197807C2001EB900 /* NitroNSArrayCategoriesTests.m */,
-				127AE74A197807C2001EB900 /* Supporting Files */,
+				127AE74F197807C2001EB900 /* NitroNSArrayTransformTests.m */,
 			);
 			path = NitroNSArrayCategoriesTests;
-			sourceTree = "<group>";
-		};
-		127AE74A197807C2001EB900 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				127AE74B197807C2001EB900 /* NitroNSArrayCategoriesTests-Info.plist */,
-				127AE74C197807C2001EB900 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 127AE753197807C2001EB900 /* Build configuration list for PBXNativeTarget "NitroNSArrayCategories" */;
 			buildPhases = (
+				6BFBDE043A4043A488C3D63C /* Check Pods Manifest.lock */,
 				127AE72C197807C2001EB900 /* Sources */,
 				127AE72D197807C2001EB900 /* Frameworks */,
 				127AE72E197807C2001EB900 /* CopyFiles */,
+				40574286A51E4A6DA9121E97 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,6 +177,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Daniel L. Alves";
+				TargetAttributes = {
+					127AE73F197807C2001EB900 = {
+						TestTargetID = 127AE72F197807C2001EB900;
+					};
+				};
 			};
 			buildConfigurationList = 127AE72B197807C2001EB900 /* Build configuration list for PBXProject "NitroNSArrayCategories" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -213,18 +206,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127AE74E197807C2001EB900 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40574286A51E4A6DA9121E97 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-NitroNSArrayCategories-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BFBDE043A4043A488C3D63C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		127AE72C197807C2001EB900 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127AE73B197807C2001EB900 /* NitroNSArrayCategories.m in Sources */,
+				127AE75E197807DB001EB900 /* NSArray+Utils_Nitro.m in Sources */,
+				127AE75D197807DB001EB900 /* NSArray+Transform_Nitro.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127AE750197807C2001EB900 /* NitroNSArrayCategoriesTests.m in Sources */,
+				127AE750197807C2001EB900 /* NitroNSArrayTransformTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,17 +271,6 @@
 			targetProxy = 127AE746197807C2001EB900 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		127AE74C197807C2001EB900 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				127AE74D197807C2001EB900 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		127AE751197807C2001EB900 /* Debug */ = {
@@ -291,6 +306,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -321,6 +337,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -328,11 +345,11 @@
 		};
 		127AE754197807C2001EB900 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B3B08D9191458E9998F238 /* Pods-NitroNSArrayCategories.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/NitroNSArrayCategories.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NitroNSArrayCategories/NitroNSArrayCategories-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -340,11 +357,11 @@
 		};
 		127AE755197807C2001EB900 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B3B08D9191458E9998F238 /* Pods-NitroNSArrayCategories.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/NitroNSArrayCategories.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NitroNSArrayCategories/NitroNSArrayCategories-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -359,12 +376,11 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NitroNSArrayCategories/NitroNSArrayCategories-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "NitroNSArrayCategoriesTests/NitroNSArrayCategoriesTests-Info.plist";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -379,8 +395,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NitroNSArrayCategories/NitroNSArrayCategories-Prefix.pch";
-				INFOPLIST_FILE = "NitroNSArrayCategoriesTests/NitroNSArrayCategoriesTests-Info.plist";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -405,6 +420,7 @@
 				127AE755197807C2001EB900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		127AE756197807C2001EB900 /* Build configuration list for PBXNativeTarget "NitroNSArrayCategoriesTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +429,7 @@
 				127AE758197807C2001EB900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,6 +1,6 @@
 //
-//  NSArray+Trasform_Nitro.h
-//  nitro
+//  NSArray+Transform_Nitro.h
+//  NitroNSArrayCategories
 //
 //  Created by Daniel L. Alves on 1/4/14.
 //  Copyright (c) 2014 nitro. All rights reserved.
@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 
 /**
- *  @category Trasform_Nitro
+ *  @category Transform_Nitro
  */
-@interface NSArray( Trasform_Nitro )
+@interface NSArray( Transform_Nitro )
 
 /**
  *  Applies an operation sequentially to the elements of self, returning the results
@@ -29,7 +29,7 @@
  *  @param selector The operation which must be applied to the elements of self
  *
  *  @return If the array is empty or selector is nil, returns self. Otherwise, 
- *  a new array containing the results of the operation.
+ *          a new array containing the results of the operation.
  *
  *  @throws NSUndefinedKeyException on the first object to which selector is not appliable
  *
@@ -58,10 +58,10 @@
  *  @param selector The operation which must be applied to the elements of self
  *
  *  @return If the array is empty or selector is nil, returns self. Otherwise,
- *  a new array containing the results of the operation.
+ *          a new array containing the results of the operation.
  * 
  *  @throws NSInvalidArgumentException on the first object to which selector is not appliable or if
- *  selector receives no arguments
+ *          selector receives no arguments
  *
  *  @see transformWithSelector:
  *  @see transformWithBlock:
@@ -86,11 +86,11 @@
  *  @param transformBlock The block which must be applied to the elements of self
  *
  *  @return If the array is empty or transformBlock is nil, returns self. Otherwise,
- *  a new array containing the results of transformBlock calls.
+ *          a new array containing the results of transformBlock calls.
  *
  *  @see transformWithSelector:
  *  @see transformWithSelector:andObject:
  */
--( NSArray * )transformWithBlock:( NSObject*(^)( NSObject *obj ) )transformBlock;
+-( NSArray * )transformWithBlock:( NSObject* (^)( NSObject *obj ) )transformBlock;
 
 @end

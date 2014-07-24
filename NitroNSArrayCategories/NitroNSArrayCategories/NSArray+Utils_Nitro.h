@@ -1,10 +1,12 @@
 //
 //  NSArray+Utils_Nitro.h
-//  nitro
+//  NitroNSArrayCategories
 //
 //  Created by Daniel L. Alves on 5/31/12.
 //  Copyright (c) 2012 nitro. All rights reserved.
 //
+
+#import <Foundation/Foundation.h>
 
 /**
  *  @category Utils_Nitro
@@ -20,7 +22,7 @@
  *  @return The object located at index, or nil if index is out of the
  *  array bounds
  *
- *  @see nsnullOrObjectAtIndex
+ *  @see nsnullOrObjectAtIndex:
  */
 -( id )nilOrObjectAtIndex:( NSUInteger )index;
 
@@ -33,7 +35,7 @@
  *  @return The object located at index, or NSNull if index is out of the
  *  array bounds
  *
- *  @see nilOrObjectAtIndex
+ *  @see nilOrObjectAtIndex:
  */
 -( id )nsnullOrObjectAtIndex:( NSUInteger )index;
 
@@ -68,6 +70,6 @@
  *  @return The objects in the array that pass the test specified by predicate. If no objects 
  *  in the array pass the test, returns an empty array.
  */
--( NSArray * )objectsPassingTest:(BOOL (^)( id obj, NSUInteger idx, BOOL *stop ))predicate;
+-( NSArray * )objectsPassingTest:( BOOL (^)( id obj, NSUInteger idx, BOOL *stop ))predicate;
 
 @end

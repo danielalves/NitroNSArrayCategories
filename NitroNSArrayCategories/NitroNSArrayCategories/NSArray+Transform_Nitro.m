@@ -1,19 +1,19 @@
 //
-//  NSArray+Trasform_Nitro.m
-//  nitro
+//  NSArray+Transform_Nitro.m
+//  NitroNSArrayCategories
 //
 //  Created by Daniel L. Alves on 1/4/14.
 //  Copyright (c) 2014 nitro. All rights reserved.
 //
 
-#import "NSArray+Trasform_Nitro.h"
+#import "NSArray+Transform_Nitro.h"
 
-// nitro
-#import "NSInvocation+Utils_Nitro.h"
+// pods
+#import <NitroMisc/NitroMisc.h>
 
 #pragma mark - Implementation
 
-@implementation NSArray( Trasform_Nitro )
+@implementation NSArray( Transform_Nitro )
 
 -( NSArray * )transformWithSelector:( SEL )selector
 {
@@ -42,7 +42,7 @@
         
         NSInvocation *invocation = [NSInvocation invocationWithMethodSignature: [arrayObj methodSignatureForSelector: selector]];
         invocation.selector = selector;
-        [invocation setArgument: &object atIndex: [NSInvocation firstArgumentIndex]];
+        [invocation setArgument: &object atIndex: kNitroNSInvovationFirstArgumentIndex];
         [invocation invokeWithTarget: arrayObj];
         [invocation getReturnValue: &result];
         
@@ -52,7 +52,7 @@
     return temp;
 }
 
--( NSArray * )transformWithBlock:( NSObject*(^)( NSObject *obj ) )transformBlock
+-( NSArray * )transformWithBlock:( NSObject* (^)( NSObject *obj ) )transformBlock
 {
     NSUInteger selfCount = self.count;
     if( !transformBlock || !selfCount )

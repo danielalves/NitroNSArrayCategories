@@ -1,6 +1,6 @@
 //
 //  NSArray+Utils_Nitro.m
-//  nitro
+//  NitroNSArrayCategories
 //
 //  Created by Daniel L. Alves on 5/31/12.
 //  Copyright (c) 2012 nitro. All rights reserved.
@@ -26,7 +26,7 @@
 	return  temp ? temp : [NSNull null];
 }
 
--( NSArray * )objectsPassingTest:(BOOL (^)( id obj, NSUInteger idx, BOOL *stop ))predicate
+-( NSArray * )objectsPassingTest:( BOOL (^)( id obj, NSUInteger idx, BOOL *stop ))predicate
 {
     NSIndexSet *indexes = [self indexesOfObjectsPassingTest: predicate];
     return [self objectsAtIndexes: indexes];
