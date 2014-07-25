@@ -1,10 +1,10 @@
 PODS:
-  - NitroMisc (1.0.0)
+  - NitroMisc (1.0.1)
 
 DEPENDENCIES:
-  - NitroMisc
+  - NitroMisc (~> 1.0.1)
 
 SPEC CHECKSUMS:
-  NitroMisc: 47192a06c2e1c7fa248e2c8a880da3c232b89faa
+  NitroMisc: a7bfc1077d457fc9550ef787cf75ade23b608911
 
 COCOAPODS: 0.33.1
