@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.source_files = "NitroNSArrayCategories/NitroNSArrayCategories"
   s.xcconfig     = { 'OTHER_LDFLAGS' => '-ObjC' }
   s.requires_arc = true
-  s.dependency 'NitroMisc'
+  s.dependency 'NitroMisc', '~> 1.0.0'
 end
