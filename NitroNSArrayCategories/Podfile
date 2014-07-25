@@ -1,5 +1,5 @@
 platform :ios, '4.3'
 
 target :NitroNSArrayCategories do
-    pod 'NitroMisc'
+    pod 'NitroMisc', '~>1.0.1'
 end
