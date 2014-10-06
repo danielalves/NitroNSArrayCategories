@@ -18,7 +18,7 @@ Examples
 Apply an operation on every array object returning the results in a new array.
 
 ```objc
-NSArray *incredibles = @[ @"Mr. Incredible", @"Elastigirl", @"Violet", @"Violet", @"Jack-Jack" ];
+NSArray *incredibles = @[ @"Mr. Incredible", @"Elastigirl", @"Violet", @"Dash", @"Jack-Jack" ];
 
 // With selectors that receive no arguments:
 // uppercasedIncredibles will be @[ @"MR. INCREDIBLE", @"ELASTIGIRL", @"VIOLET", @"DASH", @"JACK-JACK"];
