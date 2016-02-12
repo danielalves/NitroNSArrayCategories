@@ -1,7 +1,7 @@
 NitroNSArrayCategories
 ======================
 
-[![Cocoapods](https://cocoapod-badges.herokuapp.com/v/NitroNSArrayCategories/badge.png)](http://cocoapods.org/?q=NitroNSArrayCategories)
+[![CocoaPods](https://cocoapod-badges.herokuapp.com/v/NitroNSArrayCategories/badge.png)](http://cocoapods.org/?q=NitroNSArrayCategories)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/NitroNSArrayCategories/badge.png)](http://cocoadocs.org/docsets/NitroNSArrayCategories)
 [![TravisCI](https://travis-ci.org/danielalves/NitroNSArrayCategories.svg?branch=master)](https://travis-ci.org/danielalves/NitroNSArrayCategories)
 
